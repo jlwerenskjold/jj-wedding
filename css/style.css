@@ -17,11 +17,12 @@ p {
   min-height: 380px;
   line-height: 0;
   height: 1300px;
+  top: 40%;
   color: rgba(255,255,255,.9);
 }
-  .parallax-container .section {
-    width: 100%;
-  }
+.parallax-container .section {
+  width: 100%;
+}
 
 @media only screen and (max-width : 992px) {
   .parallax-container .section {
@@ -48,4 +49,17 @@ p {
 
 footer.page-footer {
   margin: 0;
+}
+.greeting-card {
+  font-family: 'Fredericka the Great', cursive;
+}
+
+.greeting-header-text {
+  font-size: 4em !important;
+  margin-bottom: 15px !important;
+  line-height: 50px !important;
+}
+
+.greeting-body-text {
+  font-size: 2em;
 }

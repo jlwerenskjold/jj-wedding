@@ -63,3 +63,16 @@ footer.page-footer {
 .greeting-body-text {
   font-size: 2em;
 }
+
+.container-page {
+  width: 85%;
+  margin: 0 auto;
+}
+
+.page-background {
+  background-image: url('images/wave-texture-background.jpg');
+}
+
+.background-white {
+  background-color: white;
+}
